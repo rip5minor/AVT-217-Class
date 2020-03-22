@@ -3,11 +3,22 @@
 @font-face {
     font-family: 'atomic_ageregular';
     src: url('atomicage-regular-webfont.eot');
-    src: url('atomicage-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('atomicage-regular-webfont.woff2') format('woff2'),
+    src:
          url('atomicage-regular-webfont.woff') format('woff'),
-         url('atomicage-regular-webfont.ttf') format('truetype'),
          url('atomicage-regular-webfont.svg#atomic_ageregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'action_manbold';
+    src: url('Action_Man_Bold-webfont.eot');
+    src: url('Action_Man_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Action_Man_Bold-webfont.woff2') format('woff2'),
+         url('Action_Man_Bold-webfont.woff') format('woff'),
+         url('Action_Man_Bold-webfont.ttf') format('truetype'),
+         url('Action_Man_Bold-webfont.svg#action_manbold') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -15,4 +26,24 @@
 
 h1 {
 	 font-family: 'atomic_ageregular';
+}
+
+h2 {
+	font-family: 'action_manbold';
+}
+
+h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+h4 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+}
+
+p {
+	font-family: 'Liu Jian Mao Cao', cursive;
+	font-weight: 400;
+	font-size: 30px;
 }
