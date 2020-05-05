@@ -1,0 +1,465 @@
+.header-tag { 
+    width: 100%;
+    display: inline-block;
+	min-height: 75px;
+    max-height: 75px;
+}
+
+.header-tag-descriptions {
+	width: 48%;
+    float: left;
+	margin-left: 2%;
+	margin-top: 2%;
+	height: 75px;
+}
+
+.header-tag-description-my-name { 
+	font-size: 25px;
+	padding-left: 0px;
+	margin-top: auto;
+	margin-bottom: 0px;
+	text-shadow: 3px 3px black;
+}
+
+.header-tag-description-title { 
+	margin-top: 0px;
+	font-size: 15px;
+	text-shadow: 3px 3px black;
+}
+.header-tag-description-title-fix { 
+	margin-top: 0px;
+	font-size: 15px;
+	text-align:center;
+}
+
+.header-tag-description-my-name-fix { 
+	font-size: 25px;
+	padding-left: 0px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	text-align:center;
+}
+.header-menu-items { 
+	width: 50%;
+    float: left;
+	display: inline-block;
+	margin-top: 1%;
+	font-size: 20px;
+	text-align: center;
+	height: 75px;
+}
+
+.dropdown {
+  	position: relative;
+  	display: inline-block;
+	text-shadow: 3px 3px black;
+}
+
+.dropdown-content {
+  	display: none;
+  	position: absolute;
+  	background-color: #191919;
+  	min-width: 160px;
+  	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  	z-index: 1;
+}
+
+.dropdown-content a {
+  	color: white;
+  	padding: 12px 16px;
+  	text-decoration: none;
+  	display: block;
+}
+
+.dropdown-content a:hover {background-color: #191919}
+
+.dropdown:hover .dropdown-content {
+  	display: block;
+}
+
+.my-work-menu-item { 
+	width: 33%;
+    float: left;
+	text-shadow: 3px 3px black;
+}
+
+.about-menu-item { 
+	width: 33%;
+    float: left;
+	text-shadow: 3px 3px black;
+	color:#fff;
+}
+
+.contact-menu-item { 
+	width: 33%;
+    float: left;
+	text-shadow: 3px 3px black;
+}
+
+.about-text {
+	font-size: 20px;
+	text-align: right;
+}
+
+.about-description-fifty{
+	display:inline-block;
+	width:40%;
+	float:left;
+}
+
+.about-description-fifty p{
+	text-align:center;
+	padding-top:50px;
+	font-size: 26px;
+}
+
+.about-description-sub-fifty{
+	display:inline-block;
+	width:60%;
+	float:right;
+	font-size: 20px;
+}
+###
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	line-height: 1;
+	background-color: #000000;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	color: white;
+	font: inherit;
+
+}
+main { 
+  width: 75%;
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color: #191919;
+}
+header {
+	font-size: 30px;
+	width: 100%;
+	display: inline-block;
+	background-color:#222222;
+}
+	
+.h1 {
+	font-size: 30px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+.timebending {
+	background-image: url("time_bending_blur.png");
+	background-size:cover;
+	width: 100%;
+	overflow:hidden;
+	display:inline-block;
+	text-align:center;
+}
+
+.games h1 { 
+    font-size: 35px;
+}
+
+.characters {
+	background-image: url("Arruda_Donald_Characters.png");
+	background-size: contain;
+	overflow:hidden;
+	background-repeat:no-repeat;
+	display:inline-block;
+	padding-top:10%;
+	padding-bottom:10%;
+	margin-left: 23.5%;
+	margin-right: 23.5%;
+	margin-top: 7%;
+	margin-bottom:3%;
+	width:100%;
+}
+
+.characters-text {
+	font-size:40px;
+	text-align:center;
+}
+
+.artwork {
+	background-image: url("Arruda_Donald_2D_Artwork.png");
+	background-size: contain;
+	overflow:hidden;
+	background-repeat:no-repeat;
+	display:inline-block;
+	padding-top:10%;
+	padding-bottom:10%;
+	margin-left: 23.5%;
+	margin-right: 23.5%;
+	margin-top: 7%;
+	margin-bottom:3%;
+	width:100%;
+}
+
+.material-cubes-background {
+	background-color:#2e2e2e;
+	width:96%;
+	display:inline-block;
+	margin-bottom:4%;
+	margin-left:2%;
+	margin-right:2%;
+	border:solid;
+	border-color:black;
+	border-radius:10px;
+}
+.material-cubes-fifty {
+	float:left;
+	text-align:left;
+	width:46%;
+}
+
+.material-cubes-sub-fifty {
+	float:right;
+	width:50%;
+	margin:2%;
+}
+
+.rpg-icons-background {
+	background-color:#2e2e2e;
+	width:96%;
+	display:inline-block;
+	margin-top:4%;
+	margin-bottom:4%;
+	margin-left:2%;
+	margin-right:2%;
+	border:solid;
+	border-color:black;
+	border-radius:10px;
+}
+
+.rpg-icons-fifty {
+	float:left;
+	text-align:left;
+	width:40%;
+	margin:1.2%;
+}
+
+.rpg-icons-sub-fifty {
+	float:right;
+	width:55%;
+}
+
+.weapon-textures-background {
+	background-color:#2e2e2e;
+	width:96%;
+	display:inline-block;
+	margin-bottom:4%;
+	margin-top:4%;
+	margin-left:2%;
+	margin-right:2%;
+	border:solid;
+	border-color:black;
+	border-radius:10px;
+}
+.weapon-textures-fifty {
+	float:left;
+	text-align:left;
+	width:46%;
+}
+
+.weapon-textures-sub-fifty {
+	float:right;
+	width:50%;
+	margin:2%;
+}
+
+.artwork-text {
+	font-size:40px;
+	text-align:center;
+
+}
+
+.weapons-text {
+	font-size:40px;
+	text-align:center;
+}
+
+.games-text {
+	font-size:40px;
+	text-align:center;
+
+}
+
+.timebending-text {
+	font-size: 18px;
+}
+
+.social-media-icons {
+	width: 100%;
+  	display: inline-block;
+}
+
+.twitter-icon {
+	padding-top:1%;
+	margin-left:37.5%;
+	margin-right:1%;
+	float:left;
+}
+
+.linkedin-icon {
+	padding-top:1%;
+	margin-left:1%;
+	margin-right:1%;
+	float:left;
+}
+
+.facebook-icon {
+	padding-top:1%;
+	margin-left:1%;
+	margin-right:1%;
+	float:left;
+}
+
+.instagram-icon {
+	padding-top:1%;
+	margin-left:1%;
+	margin-right:1%;
+	float:left;
+}
+
+.copyright {
+	float:right;
+	font-size:16px;
+	padding-right:2%;
+	padding-top:2%;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+## HTML5 display-role reset for older browsers ##
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	line-height: 1;
+	background-color: #000000;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	color: white;
+	font: inherit;
+
+}
+main { 
+  width: 75%;
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color: #191919;
+}
+header {
+	font-size: 30px;
+	width: 95%;
+	display: inline-block;
+	}
+	
+h1 {
+	font-size: 30px;
+	padding-left: 10px;
+	padding-top: 10px;
+	
+}
+
+header-contact-button {
+	width: 15%;
+	display:inline-block;
+}
+
+h2 {
+	font-size: 20px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	
+}
+
+games {
+	background-image: url(time_bending.png);
+	width: 100%;
+	overflow:hidden;
+	display:inline-block;
+	
+}
+
+social-media-icons {
+	width: 24%;
+  	margin-top: 1.5%;
+  	margin-bottom: 1%;
+	padding-left:15%;
+	padding-right:15%;
+  	display: inline-block;
+	<img src="facebook.png" alt="facebook" class="center">
+	<img src="twitter.png" alt="twitter" class="center">
+	<img src="social-011_linkedin.png" alt="linkedin" class="center">
+	<img src="instagram.png" alt="instagram" class="center">
+}
+
+*/
